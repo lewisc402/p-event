@@ -1,7 +1,7 @@
 import EventEmitter from 'events';
 import test from 'ava';
 import delay from 'delay';
-import pEvent from '.';
+import pEvent from './app';
 
 test('event to promise', async t => {
 	const emitter = new EventEmitter();
